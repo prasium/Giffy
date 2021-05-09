@@ -4,8 +4,7 @@ const ejs = require('ejs');
 const axios = require('axios');
 const port = process.env.PORT || 3000;
 const cors = require('cors');
-
-const apikey = process.env.API_KEY;
+require('dotenv').config();
 
 const app = express(); //intialize express
 app.set('view engine','ejs');
@@ -39,7 +38,7 @@ app.get('/giffey',(req,res)=>{
       let url = "https://api.giphy.com/v1/gifs/search";
 
       const params = {
-          api_key: apikey,
+          api_key: process.env.API_KEY,
           limit: 25,
           q: searchTerm,
           lang: 'en',
