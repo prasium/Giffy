@@ -1,0 +1,70 @@
+.navbar{
+      flex-direction: column;
+}
+.headtitle{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+  color:#0db9e1 ;
+  font-family: Londrina;
+}
+
+.bgcust{
+  background: 'https://image.freepik.com/free-photo/grunge-wall-texture_1194-6386.jpg'
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.search{
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2020/12/25/04/51/polar-lights-5858656_1280.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.searchbar{
+  position: absolute;
+left: 0;
+top: 40%;
+width: 100%;
+text-align: center;
+color: #000;
+}
+
+.border{
+  outline: none;
+  width: 50%;
+  border-radius: 50px;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+.searchButton{
+      position: absolute;
+      top: 52%;
+      left: 40vw;
+      margin-top: 1em;
+      color: black;
+      border: 4px solid black;
+      border-radius: 40px;
+      width: 20vw;
+      text-align: center;
+      padding: 10px;
+      font-size: 18px;
+}
+.footer-font{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Open-Sans';
+}
+
+a{
+  text-decoration: none;
+}

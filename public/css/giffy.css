@@ -1,0 +1,17 @@
+img{
+  margin:2vh;
+  border: 5px solid black;
+}
+
+body{
+  background: url(https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png);
+  background-size: cover;
+}
+
+.container{
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}

@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs'); -%>
+
+<link href="css/giffy.css" rel="stylesheet" type="text/css">
+
+<div class="container">
+
+  <% console.log(gifs.length); %>
+  <% for(var i=1;i<=gifs.length;i++) { console.log(gifs[i-1].images.downsized.url); %>
+    <img class="col-md-3" src=<%=gifs[i-1].images.downsized.url%>  alt="">
+    <% } %>
+</div>
+
+<%- include('partials/footer.ejs'); -%>
